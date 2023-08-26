@@ -1,0 +1,196 @@
+{
+  // editor
+  "editor.fontSize": 22,
+  "editor.lineHeight": 1.55,
+  "editor.letterSpacing": -0.25,
+  "editor.fontFamily": "'Cascadia Monod','Test Söhne Monod','Google Sans Monod','Agaved','CamingoMono Regulard','Andale Monod','PT Monod','Share Tech Monod','Oxygen Monod','Go Monod','The Sans Mono-d','CamingoCoded','MonoLisad','Cascadia Coded','PT Monod','Operator Mono Lig','JetBrains Mono','MonoLisa','The Sans Mono-d','Cascadia Coded','Operator Mono Lig','Dank Mono','The Sans Mono-d','JetBrains Mono','Operator Mono Lig','Dank Mono','Comic Code Ligaturesd','Input Serifd','Input Monod','Dank Mono','IBM Plex Monod','Cascadia Coded','Monacod','Consolas','SF Mono','NanumGothicCodingd','Operator Mono Lig','Dank Monod','MonoLisa','Mononokd','Noto Sans Monod','CamingoMono Regulard','Menlo','Victor Monod','','Operator Mono Ligd','Menlod','Roboto Monod','SF Mono','Consolasd','Comic Code Ligatures','Comic Mono','Operator Mono Lig','Dank Mono','Operator Mono Lig','Candara','Menlo','Anonymous Pro','Ubuntu Mono','Source Code Pro','Operator Mono','Monaco','Operator Mono','Cascadia Code','MonoLisa','Anonymous Pro','Fira Code','JetBrains Mono','Roboto Mono','Dank Mono', monospace",
+  "editor.fontWeight": "320",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  //terminal
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Operator Mono",
+  "workbench.iconTheme": "vscode-icons",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "vscode-edge-devtools.mirrorEdits": true,
+  "editor.inlineSuggest.enabled": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "vscode-edge-devtools.webhint": false,
+  "codesnap.backgroundColor": "#000000",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "html": "true"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "javascript": true,
+    "css": true,
+    "json": true,
+    "html": true
+  },
+
+  "cSpell.userWords": [
+    "Abdal",
+    "abuhanifa",
+    "asus",
+    "Behance",
+    "cloudinary",
+    "codepaths",
+    "datasources",
+    "Dribbble",
+    "fastify",
+    "fieldname",
+    "Fiverr",
+    "graphiql",
+    "Hanifa",
+    "Karim",
+    "mashrafi",
+    "mediumclone",
+    "middlewares",
+    "nestjs",
+    "NEXTAUTH",
+    "noopener",
+    "noreferrer",
+    "Offcanvas",
+    "PERN",
+    "Pinterest",
+    "Rahim",
+    "RDBMS",
+    "reduxjs",
+    "Roboto",
+    "sakib",
+    "Shakib",
+    "Shourov",
+    "signin",
+    "sqkm",
+    "Strapi",
+    "Sylhet",
+    "tailwindcss",
+    "tanstack",
+    "toastify",
+    "TODOS",
+    "TRPC",
+    "tsbuildinfo",
+    "typeorm",
+    "Upwork",
+    "zustand"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "npm.keybindingsChangedWarningShown": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "rapidapi.terminalLink.enabled": false,
+  "eslint.codeActionsOnSave.rules": null,
+  "html.format.contentUnformatted": null,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Learn with Sumit - Shades of Grey",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/dist"
+    }
+  ],
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "terminal.integrated.env.windows": {},
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "aws.suppressPrompts": {
+    "codeWhispererConnectionExpired": true
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "liveServer.settings.donotVerifyTags": true
+}
